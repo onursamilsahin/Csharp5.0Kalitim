@@ -10,7 +10,10 @@ namespace Csharp5._1SanalMetot
     {
         static void Main(string[] args)
         {
-
+            Insan K1=new Insan();
+             //Burada ınsan için dil atanamadı yani başka bir class içerisinde örneklenmediği zaman Default çalışıyor.
+            //Ancak örnekleme yapıldığında sanal metot ezilerek işlem istenilen class üzerinden yapılıyor.
+            K1.Konus();
             Turk T1=new Turk();
 
 
